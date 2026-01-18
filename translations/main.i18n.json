@@ -1,0 +1,645 @@
+{
+  "": [
+    "--------------------------------------------------------------------------------------------",
+    "Copyright (c) Microsoft Corporation. All rights reserved.",
+    "Licensed under the MIT License.",
+    "Traducció al valencià de Visual Studio Code",
+    "--------------------------------------------------------------------------------------------"
+  ],
+  "vs/base/common/errorMessage": {
+    "stackTrace.format": "Traça de pila:\n{0}",
+    "nodeExceptionMessage": "S'ha produit un error del sistema ({0})"
+  },
+  "vs/base/common/actions": {
+    "submenu.empty": "(buit)"
+  },
+  "vs/base/common/processes": {
+    "procs.noProcessSelected": "No s'ha seleccionat cap procés",
+    "terminating": "Finalitzant..."
+  },
+  "vs/base/common/severity": {
+    "error": "Error",
+    "warning": "Avís",
+    "info": "Informació"
+  },
+  "vs/base/parts/quickinput/browser/quickInput": {
+    "quickInput.back": "Arrere",
+    "quickInput.backWithKeybinding": "Arrere ({0})",
+    "quickInput.checkAll": "Marcar tot",
+    "quickInput.ok": "D'acord",
+    "quickInput.custom": "Personalitzat",
+    "quickInput.steps": "{0}/{1}",
+    "quickInput.visibleCount": "{0} Resultats",
+    "quickInput.countSelected": "{0} Seleccionats"
+  },
+  "vs/editor/common/config/editorOptions": {
+    "accessibilitySupport.auto": "Automàtic",
+    "accessibilitySupport.on": "Activat",
+    "accessibilitySupport.off": "Desactivat",
+    "acceptSuggestionOnEnter": "Acceptar suggeriments en prémer Intro",
+    "acceptSuggestionOnEnter.on": "Acceptar suggeriment en prémer Intro",
+    "acceptSuggestionOnEnter.off": "No acceptar suggeriment en prémer Intro",
+    "acceptSuggestionOnEnter.smart": "Acceptar només quan es fa canvi textual",
+    "acceptSuggestionOnCommitCharacter": "Acceptar suggeriments en caràcters de confirmació",
+    "autoClosingBrackets": "Tancar parèntesis automàticament",
+    "autoClosingQuotes": "Tancar cometes automàticament",
+    "autoIndent": "Sagnat automàtic",
+    "cursorBlinking": "Parpelleig del cursor",
+    "cursorStyle": "Estil del cursor",
+    "cursorWidth": "Amplària del cursor",
+    "fontFamily": "Família de fonts",
+    "fontSize": "Tamany de font",
+    "fontWeight": "Pes de la font",
+    "formatOnPaste": "Formatar en apegar",
+    "formatOnType": "Formatar mentre s'escriu",
+    "lineHeight": "Altura de línia",
+    "lineNumbers": "Números de línia",
+    "lineNumbers.on": "Activat",
+    "lineNumbers.off": "Desactivat",
+    "lineNumbers.relative": "Relatius",
+    "minimap.enabled": "Minimapa activat",
+    "renderWhitespace": "Mostrar espais en blanc",
+    "rulers": "Regles",
+    "scrollBeyondLastLine": "Desplaçar més enllà de l'última línia",
+    "tabSize": "Tamany de tabulació",
+    "wordWrap": "Ajust de línia",
+    "wordWrap.on": "Activat",
+    "wordWrap.off": "Desactivat",
+    "wordWrap.wordWrapColumn": "En la columna d'ajust de línia",
+    "wordWrap.bounded": "Limitat"
+  },
+  "vs/editor/contrib/find/browser/findWidget": {
+    "label.find": "Buscar",
+    "placeholder.find": "Buscar",
+    "label.previousMatchButton": "Coincidència anterior",
+    "label.nextMatchButton": "Coincidència següent",
+    "label.toggleSelectionFind": "Buscar en la selecció",
+    "label.closeButton": "Tancar",
+    "label.replace": "Reemplaçar",
+    "label.replaceButton": "Reemplaçar",
+    "label.replaceAllButton": "Reemplaçar tot",
+    "label.toggleReplaceButton": "Alternar reemplaçament",
+    "title.matchesCountLimit": "Només es ressalten els primers {0} resultats, però totes les operacions funcionen en tot el text.",
+    "label.matchesLocation": "{0} de {1}",
+    "label.noResults": "No s'han trobat resultats"
+  },
+  "vs/editor/contrib/suggest/browser/suggestWidget": {
+    "readMore": "Llegir més...({0})",
+    "loadingDetails": "carregant...",
+    "suggestWidget.loading": "Carregant...",
+    "suggestWidget.noSuggestions": "No hi ha suggeriments.",
+    "suggestWidget.ariaLabel": "Suggeriments",
+    "ariaCurrentSuggestionReadDetails": "Suggeriment {0}, docs: {1}"
+  },
+  "vs/platform/actions/browser/menuEntryActionViewItem": {
+    "titleAndKb": "{0} ({1})",
+    "titleAndKbAndAlt": "{0} ({1}) {2}"
+  },
+  "vs/platform/configuration/common/configurationRegistry": {
+    "config.property.languageDefault": "Configuració específica de l'idioma per a '{0}'"
+  },
+  "vs/platform/dialogs/common/dialogs": {
+    "yesButton": "&&Sí",
+    "noButton": "&&No",
+    "cancelButton": "Cancel·lar",
+    "saveButton": "&&Guardar",
+    "dontSaveButton": "No &&guardar"
+  },
+  "vs/platform/files/common/files": {
+    "sizeB": "{0} B",
+    "sizeKB": "{0} KB",
+    "sizeMB": "{0} MB",
+    "sizeGB": "{0} GB",
+    "sizeTB": "{0} TB"
+  },
+  "vs/platform/list/browser/listService": {
+    "workbenchConfigurationTitle": "Llistes i arbres",
+    "multiSelectModifier": "Modificador per a afegir elements a seleccions múltiples",
+    "multiSelectModifier.ctrlCmd": "Assigna a Control en Windows i Linux i a Command en macOS",
+    "multiSelectModifier.alt": "Assigna a Alt en Windows i Linux i a Option en macOS",
+    "openModeModifier": "Controla com obrir elements en arbres i llistes amb el ratolí",
+    "openModeModifier.ctrlCmd": "Control en Windows i Linux, Command en macOS",
+    "openModeModifier.alt": "Alt en Windows i Linux, Option en macOS"
+  },
+  "vs/platform/markers/common/markers": {
+    "sev.error": "Error",
+    "sev.warning": "Avís",
+    "sev.info": "Info"
+  },
+  "vs/platform/quickinput/browser/commandsQuickAccess": {
+    "canNotRun": "El comandament '{0}' ha produït un error",
+    "recentlyUsed": "utilitzat recentment"
+  },
+  "vs/platform/theme/common/colorRegistry": {
+    "activeContrastBorder": "Un vora addicional al voltant d'elements actius per separar-los dels altres per a un major contrast.",
+    "activeLinkForeground": "Color dels enllaços actius.",
+    "badgeBackground": "Color de fons de les insinyes. Les insinyes són xicotets indicadors d'informació, per exemple, per al recompte de resultats de busca.",
+    "badgeForeground": "Color de primer pla de les insinyes.",
+    "breadcrumbsBackground": "Color de fons dels elements de ruta de navegació.",
+    "buttonBackground": "Color de fons dels botons.",
+    "buttonForeground": "Color de primer pla dels botons.",
+    "buttonHoverBackground": "Color de fons dels botons en passar el ratolí."
+  },
+  "vs/workbench/api/browser/viewsExtensionPoint": {
+    "requirearray": "les vistes han de ser una matriu.",
+    "requirestring": "la propietat '{0}' és obligatòria i ha de ser de tipus 'cadena'",
+    "optstring": "la propietat '{0}' pot ometre's o bé ha de ser de tipus 'cadena'",
+    "empty": "No s'ha especificat cap vista"
+  },
+  "vs/workbench/browser/actions/layoutActions": {
+    "toggleEditorGroupLayout": "Alternar disposició de grups d'editors",
+    "horizontalEditorGroupLayout": "Horitzontal",
+    "verticalEditorGroupLayout": "Vertical",
+    "toggleFullScreen": "Alternar pantalla completa",
+    "toggleZenMode": "Alternar mode zen",
+    "toggleCenteredLayout": "Alternar disposició centrada",
+    "toggleMenuBar": "Alternar barra de menús",
+    "toggleSidebarVisibility": "Alternar visibilitat de la barra lateral",
+    "toggleStatusbarVisibility": "Alternar barra d'estat",
+    "togglePanel": "Alternar panell",
+    "focusSideBar": "Enfocar barra lateral",
+    "focusPanel": "Enfocar panell",
+    "focusActivityBar": "Enfocar barra d'activitats",
+    "focusEditor": "Enfocar editor"
+  },
+  "vs/workbench/browser/actions/windowActions": {
+    "newWindow": "Finestra nova",
+    "closeWindow": "Tancar finestra",
+    "closeWorkspace": "Tancar espai de treball",
+    "closeFolder": "Tancar carpeta",
+    "switchWindow": "Canviar finestra...",
+    "reload": "Recarregar finestra",
+    "reloadWithExtensionsDisabled": "Recarregar amb extensions desactivades",
+    "toggleDevTools": "Alternar eines de desenrotllador"
+  },
+  "vs/workbench/browser/parts/editor/breadcrumbs": {
+    "breadcrumbs": "Ruta de navegació",
+    "symbolPath": "Ruta del símbol",
+    "filePath": "Ruta del fitxer"
+  },
+  "vs/workbench/browser/parts/editor/editor": {
+    "ariaEditorGroup": "Grup d'editors {0}",
+    "ariaEditorGroupEmpty": "Grup d'editors buit {0}"
+  },
+  "vs/workbench/browser/parts/editor/editorActions": {
+    "splitEditor": "Dividir editor",
+    "splitEditorRight": "Dividir editor a la dreta",
+    "splitEditorDown": "Dividir editor avall",
+    "splitEditorUp": "Dividir editor amunt",
+    "splitEditorLeft": "Dividir editor a l'esquerra",
+    "closeEditor": "Tancar editor",
+    "closeAll": "Tancar tot",
+    "closeOtherEditors": "Tancar altres editors",
+    "closeEditorsToTheLeft": "Tancar editors a l'esquerra",
+    "closeEditorsToTheRight": "Tancar editors a la dreta",
+    "closeAllUnmodified": "Tancar sense modificar",
+    "nextEditor": "Editor següent",
+    "previousEditor": "Editor anterior",
+    "goBack": "Arrere",
+    "goForward": "Avant",
+    "navigateBack": "Navegar arrere",
+    "navigateForward": "Navegar avant",
+    "navigateToLastEditLocation": "Anar a l'última ubicació d'edició"
+  },
+  "vs/workbench/browser/parts/editor/editorCommands": {
+    "editorCommand.activeEditorMove.description": "Mou l'editor actiu per grups o dins d'un grup",
+    "editorCommand.activeEditorMove.arg.description": "Arguments per a l'acció de moure",
+    "editorCommand.activeEditorMove.arg.to": "On moure l'editor"
+  },
+  "vs/workbench/browser/parts/editor/editorPart": {
+    "openEditor": "Obrir editor",
+    "ariaEditorPartLabel": "Part de l'editor",
+    "editorPartMultipleGroups": "{0}, diversos grups d'editors"
+  },
+  "vs/workbench/browser/parts/editor/editorPicker": {
+    "groupLabel": "grups d'editors {0}",
+    "entryAriaLabel": "{0}, selector d'editors de grup"
+  },
+  "vs/workbench/browser/parts/editor/editorStatus": {
+    "activeEditorPosition": "{0} de {1}",
+    "singleSelectionRange": "Lín. {0}, Col. {1} ({2} seleccionats)",
+    "singleSelection": "Lín. {0}, Col. {1}",
+    "multiSelectionRange": "{0} seleccions ({1} caràcters seleccionats)",
+    "multiSelection": "{0} seleccions",
+    "indentView": "Sagnat: {0}",
+    "spacesSize": "Espais: {0}",
+    "tabSize": "Tamany de tabulació: {0}",
+    "endOfLineLineFeed": "LF",
+    "endOfLineCarriageReturnLineFeed": "CRLF",
+    "selectEncoding": "Seleccionar codificació",
+    "selectEOL": "Seleccionar seqüència de fi de línia",
+    "selectIndentation": "Seleccionar sagnat",
+    "selectLanguageMode": "Seleccionar mode de llenguatge",
+    "gotoLine": "Anar a la línia...",
+    "changeModeWithSelection": "Canviar mode de llenguatge per a selecció",
+    "changeMode": "Canviar mode de llenguatge",
+    "fileEncoding": "Codificació del fitxer",
+    "languageMode": "Mode de llenguatge",
+    "indentation": "Sagnat",
+    "spaces": "Espais",
+    "tabFocusMode.title": "Alternar ús de tabulador per a moure el focus",
+    "screenReaderMode.title": "Notificar mode de lector de pantalla"
+  },
+  "vs/workbench/browser/parts/editor/editorTabs": {
+    "araLabelEditorTabs": "Pestanyes d'editors obertes",
+    "araLabelTabActions": "Accions de pestanya"
+  },
+  "vs/workbench/browser/parts/editor/tabsTitleControl": {
+    "ariaLabelEditorActions": "Accions de l'editor",
+    "araLabelTabActions": "Accions de pestanya"
+  },
+  "vs/workbench/browser/parts/sidebar/sidebarPart": {
+    "sidebarPartAriaLabel": "Barra lateral"
+  },
+  "vs/workbench/browser/parts/statusbar/statusbarPart": {
+    "statusBarAriaLabel": "Barra d'estat",
+    "manageExtension": "Gestionar extensió"
+  },
+  "vs/workbench/browser/parts/titlebar/titlebarPart": {
+    "patchedWindowTitle": "[Falta admissió] {0}",
+    "devExtensionWindowTitlePrefix": "[Extensió de desenvolupament]",
+    "devWindowTitle": "{0} - Visual Studio Code [Dev]"
+  },
+  "vs/workbench/browser/parts/views/viewPaneContainer": {
+    "viewsFilterPlaceholder": "Filtrar vistes",
+    "hideView": "Ocultar",
+    "resetViewSize": "Restablir tamany de la vista",
+    "moveView": "Moure vista",
+    "toggleView": "Alternar vista '{0}'",
+    "maximizeView": "Maximitzar vista",
+    "moveUp": "Moure amunt",
+    "moveDown": "Moure avall"
+  },
+  "vs/workbench/browser/quickaccess": {
+    "editorCommands": "comandaments de l'editor en focus",
+    "globalCommands": "comandaments globals mostrats"
+  },
+  "vs/workbench/browser/workbench": {
+    "developer": "Desenrotllador"
+  },
+  "vs/workbench/common/editor": {
+    "compareLabels": "{0} ↔ {1}",
+    "compareAriaLabels": "{0} comparat amb {1}",
+    "sideBySideLabels": "{0} - {1}"
+  },
+  "vs/workbench/contrib/debug/browser/breakpointsView": {
+    "breakpoints": "Punts d'interrupció",
+    "Function Breakpoints": "Punts d'interrupció de funció",
+    "Data Breakpoints": "Punts d'interrupció de dades",
+    "Exception Breakpoints": "Punts d'interrupció d'excepció",
+    "addFunctionBreakpoint": "Afig punt d'interrupció de funció",
+    "addFunctionBreakpointPlaceholder": "Funció on interrompre",
+    "disableAllBreakpoints": "Desactiva tots els punts d'interrupció",
+    "enableAllBreakpoints": "Activa tots els punts d'interrupció",
+    "removeAllBreakpoints": "Elimina tots els punts d'interrupció"
+  },
+  "vs/workbench/contrib/debug/browser/callStackView": {
+    "callStack": "Pila de crides",
+    "loading": "Carregant...",
+    "paused": "Pausat",
+    "running": "Executant-se",
+    "debugStopped": "Depuració aturada",
+    "stackFrameAriaLabel": "Marc de pila {0}, línia {1}, {2}",
+    "threadAriaLabel": "Fil {0}"
+  },
+  "vs/workbench/contrib/debug/browser/debugActionsWidget": {
+    "debugToolBarBackground": "Color de fons de la barra d'eines de depuració.",
+    "debugToolBarBorder": "Color del vora de la barra d'eines de depuració.",
+    "debugIconStartForeground": "Color de primer pla per a la icona d'inici en la barra d'accions de depuració.",
+    "debugIconPauseForeground": "Color de primer pla per a la icona de pausa en la barra d'accions de depuració.",
+    "debugIconStopForeground": "Color de primer pla per a la icona d'aturar en la barra d'accions de depuració."
+  },
+  "vs/workbench/contrib/debug/browser/debugCommands": {
+    "debugFocusCallStack": "Enfocar pila de crides",
+    "debugFocusVariables": "Enfocar variables",
+    "debugFocusWatch": "Enfocar vista d'inspecció",
+    "debugFocusBreakpoints": "Enfocar punts d'interrupció"
+  },
+  "vs/workbench/contrib/debug/browser/debugEditorActions": {
+    "showDebugHover": "Mostrar informació de depuració en passar el cursor",
+    "toggleBreakpoint": "Alternar punt d'interrupció",
+    "conditionalBreakpoint": "Punt d'interrupció condicional...",
+    "logPoint": "Punt de registre...",
+    "runToCursor": "Executar fins al cursor",
+    "stepIntoTarget": "Entrar en l'objectiu...",
+    "continueToHere": "Continuar fins ací"
+  },
+  "vs/workbench/contrib/debug/browser/debugService": {
+    "snapshotObj": "Només membres primitius són mostrats per a este objecte.",
+    "debuggingPaused": "Depuració pausada, raó: {0}",
+    "debuggingStarted": "Depuració iniciada.",
+    "debuggingStopped": "Depuració aturada."
+  },
+  "vs/workbench/contrib/debug/browser/debugViewlet": {
+    "debugViewTitle": "Executar i depurar",
+    "start": "Iniciar depuració",
+    "debugConfigurationNotFound": "No s'ha trobat configuració de depuració",
+    "noConfigOrProfileSelected": "No s'ha seleccionat cap configuració",
+    "variablesSection": "Secció de variables",
+    "watchSection": "Secció d'inspecció",
+    "callStackSection": "Secció de pila de crides",
+    "breakpointsSection": "Secció de punts d'interrupció"
+  },
+  "vs/workbench/contrib/debug/browser/repl": {
+    "replAriaLabel": "Panell de lectura-avaluació-impressió",
+    "debugConsole": "Consola de depuració",
+    "clearReplOutput": "Neteja la eixida de la consola",
+    "filter": "Filtrar (per exemple, text, !excloure)",
+    "filterInputPlaceHolder": "Filtrar"
+  },
+  "vs/workbench/contrib/debug/browser/variablesView": {
+    "variableValueAriaLabel": "Introduïx el valor de la variable",
+    "variablesSection": "Variables",
+    "variablesAriaTreeLabel": "Variables de depuració"
+  },
+  "vs/workbench/contrib/debug/browser/watchExpressionsView": {
+    "watch": "Inspecció",
+    "watchAriaTreeLabel": "Expressions d'inspecció de depuració",
+    "watchExpressionPlaceholder": "Expressió a inspeccionar",
+    "watchExpressionInputAriaLabel": "Introduïx l'expressió",
+    "addWatchExpression": "Afig expressió d'inspecció",
+    "removeAllWatchExpressions": "Elimina totes les expressions",
+    "collapseAll": "Contreu tot"
+  },
+  "vs/workbench/contrib/extensions/browser/extensionsActions": {
+    "checkForUpdates": "Comprova actualitzacions",
+    "disableAll": "Desactiva totes les extensions instal·lades",
+    "disableAllWorkspace": "Desactiva totes les extensions per a este espai de treball",
+    "enableAll": "Activa totes les extensions",
+    "enableAllWorkspace": "Activa totes les extensions per a este espai de treball",
+    "installVSIX": "Instal·la des de VSIX...",
+    "showRecommendedExtensions": "Mostra extensions recomanades",
+    "showEnabledExtensions": "Mostra extensions activades",
+    "showInstalledExtensions": "Mostra extensions instal·lades",
+    "showDisabledExtensions": "Mostra extensions desactivades",
+    "clearExtensionsSearchInput": "Neteja l'entrada de busca d'extensions",
+    "showOutdatedExtensions": "Mostra extensions obsoletes",
+    "showPopularExtensions": "Mostra extensions populars",
+    "showBuiltInExtensions": "Mostra extensions integrades"
+  },
+  "vs/workbench/contrib/extensions/browser/extensionsViewlet": {
+    "extensions": "Extensions",
+    "searching": "Buscant extensions en el Marketplace...",
+    "noExtensionsFound": "No s'han trobat extensions.",
+    "suggestProxyError": "El Marketplace ha retornat 'ECONNREFUSED'. Assegura't que tens una connexió a Internet o comprova la configuració del servidor intermediari.",
+    "outdatedExtensionsSearch": "Extensions obsoletes instal·lades localment"
+  },
+  "vs/workbench/contrib/files/browser/explorerViewlet": {
+    "folders": "Carpetes",
+    "explorerSection": "Secció de l'explorador de fitxers",
+    "outlineSection": "Secció d'esquema",
+    "timelineSection": "Secció de cronologia",
+    "explorerViewletTitle": "Explorador"
+  },
+  "vs/workbench/contrib/files/browser/fileActions": {
+    "saveAll": "Guardar tot",
+    "openFolder": "Obrir carpeta...",
+    "openFile": "Obrir fitxer...",
+    "openFileFolder": "Obrir...",
+    "addRootFolder": "Afig carpeta a l'espai de treball...",
+    "saveAs": "Guardar com a...",
+    "save": "Guardar",
+    "newFile": "Fitxer nou...",
+    "newFolder": "Carpeta nova...",
+    "rename": "Canviar nom...",
+    "delete": "Eliminar",
+    "copy": "Copiar",
+    "paste": "Apegar",
+    "copyPath": "Copiar ruta",
+    "copyRelativePath": "Copiar ruta relativa",
+    "revealInExplorer": "Mostrar en l'explorador de fitxers",
+    "openToTheSide": "Obrir al costat",
+    "compareWithSaved": "Comparar amb el guardat",
+    "compareSelected": "Comparar seleccionats",
+    "openToSide": "Obrir al costat"
+  },
+  "vs/workbench/contrib/files/browser/fileCommands": {
+    "openFileToShow": "Fitxer a obrir",
+    "revertFile": "Revertir fitxer",
+    "revertFiles": "Revertir fitxers",
+    "revertActiveFile": "Revertir el fitxer actiu"
+  },
+  "vs/workbench/contrib/files/browser/views/emptyView": {
+    "emptyViewTitle": "No hi ha cap carpeta oberta",
+    "openFolder": "Obrir carpeta",
+    "cloneRepository": "Clonar repositori"
+  },
+  "vs/workbench/contrib/files/browser/views/explorerView": {
+    "explorerSection": "Vista d'explorador de fitxers",
+    "treeAriaLabel": "Explorador de fitxers"
+  },
+  "vs/workbench/contrib/files/browser/views/explorerViewer": {
+    "fileInputAriaLabel": "Introduïx el nom de fitxer",
+    "folderInputAriaLabel": "Introduïx el nom de carpeta"
+  },
+  "vs/workbench/contrib/files/browser/views/openEditorsView": {
+    "openEditors": "Editors oberts",
+    "treeAriaLabel": "Editors oberts: Llista d'editors actius",
+    "dirtyCounter": "{0} sense guardar"
+  },
+  "vs/workbench/contrib/output/browser/outputPanel": {
+    "outputPanelWithInputAriaLabel": "Panell d'eixida, {0}",
+    "clearOutput": "Neteja l'eixida"
+  },
+  "vs/workbench/contrib/output/common/outputChannelModelService": {
+    "output": "Eixida"
+  },
+  "vs/workbench/contrib/preferences/browser/keybindingsEditor": {
+    "keybindings": "Dreceres de teclat",
+    "keybindingsHeaderText": "Introduïx o prem les tecles desitjades per a buscar dreceres de teclat",
+    "showSimilarKeybindings": "Mostra dreceres similars",
+    "keybindingAriaLabel": "Drecera de teclat {0}",
+    "command": "Comandament",
+    "keybinding": "Drecera de teclat",
+    "source": "Origen",
+    "when": "Quan",
+    "removeKeybinding": "Elimina drecera de teclat",
+    "resetKeybinding": "Restablix drecera de teclat",
+    "changeKeybinding": "Canvia drecera de teclat",
+    "showConflicts": "Mostra conflictes",
+    "copyKeybinding": "Copia drecera de teclat",
+    "copyCommandId": "Copia l'ID del comandament",
+    "copyCommandTitle": "Copia el títol del comandament"
+  },
+  "vs/workbench/contrib/preferences/browser/preferencesEditor": {
+    "settingsEditorName": "Configuració",
+    "searchSettings": "Buscar configuració",
+    "clearSearchInput": "Neteja l'entrada de busca",
+    "focusSettingsSearch": "Enfocar busca de configuració",
+    "commonlyUsed": "Utilitzats habitualment",
+    "showModifiedSettingsOnly": "Mostra només la configuració modificada"
+  },
+  "vs/workbench/contrib/preferences/browser/settingsEditor2": {
+    "searchTOC": "Buscar configuració",
+    "noSettingsFound": "No s'han trobat resultats",
+    "noSettingsFoundInCategory": "No s'ha trobat cap configuració en esta categoria",
+    "settingsSwitcherBarAriaLabel": "Barra de selecció de configuració",
+    "userSettings": "Configuració d'usuari",
+    "workspaceSettings": "Configuració de l'espai de treball",
+    "folderSettings": "Configuració de carpeta",
+    "defaultSettings": "Configuració per defecte",
+    "searchResultCount": "{0} configuracions trobades",
+    "nlpResult": "Resultats de llenguatge natural"
+  },
+  "vs/workbench/contrib/scm/browser/scmViewlet": {
+    "source control": "Control de versions",
+    "scm": "Control de versions",
+    "viewletLabel": "Control de versions",
+    "hideView": "Oculta el proveïdor",
+    "scmRepositoryAriaLabel": "Repositori de control de versions",
+    "scmInputAriaLabel": "Missatge de confirmació per al control de versions",
+    "scmInputPlaceholder": "Missatge (prem {0} per a confirmar)",
+    "clearedSCMInput": "S'ha netejat l'entrada de control de versions",
+    "no repositories": "No hi ha cap proveïdor de control de versions registrat."
+  },
+  "vs/workbench/contrib/search/browser/searchView": {
+    "search": "Buscar",
+    "searchInputBoxPlaceHolder": "Buscar",
+    "replaceInputBoxPlaceHolder": "Reemplaçar",
+    "searchFiles": "Cerca en fitxers",
+    "refreshSearch": "Actualitza",
+    "clearSearchResults": "Neteja resultats de busca",
+    "collapseResults": "Contreu resultats",
+    "expandAll": "Expandix tot",
+    "collapseAll": "Contreu tot",
+    "replaceAll": "Reemplaça tot",
+    "openNewSearch": "Obri busca nova",
+    "openNewSearchEditor": "Obri editor de busca nou",
+    "toggleQueryDetails": "Alterna detalls de consulta",
+    "toggleSearchOnType": "Alternar busca mentre s'escriu",
+    "matchCase": "Coincidir majúscules i minúscules",
+    "matchWholeWord": "Coincidir paraula completa",
+    "useRegularExpression": "Usar expressió regular",
+    "searchSettings": "Configuració de busca",
+    "excludePatterns": "Fitxers a excloure",
+    "filesIncludeLabel": "Fitxers a incloure",
+    "filesExcludeLabel": "Fitxers a excloure",
+    "searchOnTypeDelay": "Retard de busca mentre s'escriu"
+  },
+  "vs/workbench/contrib/search/browser/searchWidget": {
+    "label.searchInput": "Buscar",
+    "label.replaceInput": "Reemplaçar",
+    "search.action.replaceAll": "Reemplaçar tot"
+  },
+  "vs/workbench/contrib/search/browser/anythingQuickAccess": {
+    "searchPlaceholder": "Buscar fitxers per nom (afig # per a buscar símbols)",
+    "canNotRunGotoSymbol": "No es pot executar 'Anar al símbol' perquè no hi ha cap editor actiu",
+    "noAnythingResults": "No s'han trobat resultats",
+    "noResultWithEditor": "No s'han trobat resultats en l'editor",
+    "recentlyUsed": "obert recentment"
+  },
+  "vs/workbench/contrib/snippets/browser/commands/configureSnippets": {
+    "newSnippetFile.label": "Nou fitxer de fragments...",
+    "configureSnippets.label": "Configura fragments d'usuari"
+  },
+  "vs/workbench/contrib/tasks/browser/abstractTaskService": {
+    "TaskSystem.noConfiguration": "No hi ha cap tasca configurada",
+    "TaskSystem.noBuildTask": "No s'ha definit cap tasca de compilació",
+    "TaskSystem.noTestTask": "No s'ha definit cap tasca de prova",
+    "taskName": "Nom de la tasca",
+    "taskTerminated": "Tasca finalitzada"
+  },
+  "vs/workbench/contrib/tasks/browser/runAutomaticTasks": {
+    "tasks.run.allowAutomatic": "Permet l'execució automàtica de tasques"
+  },
+  "vs/workbench/contrib/tasks/browser/taskTerminalStatus": {
+    "taskRunning": "Tasca en execució",
+    "taskTerminated": "Tasca finalitzada"
+  },
+  "vs/workbench/contrib/terminal/browser/terminal": {
+    "terminal": "Terminal",
+    "terminalConfigurationTitle": "Terminal integrat",
+    "createTerminal": "Crea terminal nou",
+    "killTerminal": "Elimina el terminal actiu",
+    "killAllTerminals": "Elimina tots els terminals",
+    "clearTerminal": "Neteja el terminal",
+    "scrollDown": "Desplaça cap avall",
+    "scrollUp": "Desplaça cap amunt",
+    "selectAll": "Selecciona tot",
+    "copySelection": "Copia la selecció",
+    "paste": "Apega en el terminal actiu",
+    "toggleTerminal": "Alterna el terminal",
+    "focusTerminal": "Enfocar terminal",
+    "renameTerminal": "Canvia el nom del terminal",
+    "selectDefaultShell": "Selecciona l'intèrpret de comandaments per defecte"
+  },
+  "vs/workbench/contrib/terminal/browser/terminalActions": {
+    "workbench.action.terminal.new": "Crea un terminal integrat nou",
+    "workbench.action.terminal.split": "Dividix el terminal",
+    "workbench.action.terminal.kill": "Elimina l'instància del terminal actiu",
+    "workbench.action.terminal.clear": "Neteja",
+    "workbench.action.terminal.scrollDownLine": "Desplaça avall (línia)",
+    "workbench.action.terminal.scrollUpLine": "Desplaça amunt (línia)",
+    "workbench.action.terminal.scrollToBottom": "Desplaça fins a avall",
+    "workbench.action.terminal.scrollToTop": "Desplaça fins a dalt"
+  },
+  "vs/workbench/contrib/timeline/browser/timelinePane": {
+    "timeline": "Cronologia",
+    "timelineSection": "Secció de cronologia",
+    "noTimelineInfo": "Obri un fitxer per a veure la seua cronologia",
+    "loadMore": "Carrega més"
+  },
+  "vs/workbench/contrib/welcome/page/browser/welcomePage": {
+    "welcomePage.title": "Benvingut",
+    "welcomePage.newFile": "Fitxer nou",
+    "welcomePage.openFolder": "Obrir carpeta...",
+    "welcomePage.cloneGitRepository": "Clonar repositori de Git...",
+    "welcomePage.recent": "Recent",
+    "welcomePage.help": "Ajuda",
+    "welcomePage.moreHelp": "Més ajuda",
+    "welcomePage.showWelcomePage": "Mostra la pàgina de benvinguda en iniciar"
+  },
+  "vs/workbench/services/dialogs/common/dialogService": {
+    "moreDetails": "Més detalls",
+    "lessDetails": "Menys detalls"
+  },
+  "vs/workbench/services/editor/common/editorGroupsService": {
+    "groupActiveEditorDirty": "en el grup {0}: {1}, vista prèvia, modificat",
+    "groupActiveEditorPinned": "en el grup {0}: {1}",
+    "groupActiveEditorPreview": "en el grup {0}: {1}, vista prèvia"
+  },
+  "vs/workbench/services/editor/common/editorService": {
+    "compareLabels": "{0} ↔ {1}"
+  },
+  "vs/workbench/services/environment/electron-sandbox/shellEnvironmentService": {
+    "settingInitializing": "Configurant l'entorn de l'intèrpret de comandaments..."
+  },
+  "vs/workbench/services/extensions/common/extensionsRegistry": {
+    "unknownExtension": "Extensió desconeguda: {0}",
+    "extensionActivated": "Extensió '{0}' activada"
+  },
+  "vs/workbench/services/host/electron-sandbox/nativeHostService": {
+    "relaunch": "Reinicia",
+    "relaunchDetail": "Prem 'Reinicia' per a aplicar els canvis"
+  },
+  "vs/workbench/services/keybinding/common/keybindingEditing": {
+    "errorKeybindingsFileDirty": "No es pot editar perquè el fitxer està modificat. Guarda el fitxer de dreceres de teclat i torna-ho a intentar.",
+    "parseErrors": "No es pot escriure en el fitxer de dreceres de teclat. Corregix els errors/avisos en el fitxer i torna-ho a intentar."
+  },
+  "vs/workbench/services/search/common/searchService": {
+    "searchFailed": "La busca ha fallat"
+  },
+  "vs/workbench/services/textfile/common/textFileService": {
+    "saveChangesMessage": "¿Vols guardar els canvis que has fet en {0}?",
+    "saveChangesMessages": "¿Vols guardar els canvis dels següents {0} fitxers?",
+    "saveChangesDetail": "Els canvis es perdran si no es guarden.",
+    "dontSave": "No guardes",
+    "save": "Guarda",
+    "cancel": "Cancel·la",
+    "saveChangesDetailPreview": "Els canvis es perdran si continues sense guardar."
+  },
+  "vs/workbench/services/themes/common/colorThemeData": {
+    "error.cannotload": "No s'ha pogut carregar el tema de color: {0}"
+  },
+  "vs/workbench/services/untitled/common/untitledTextEditorService": {
+    "untitledFileName": "Sense títol-{0}"
+  },
+  "vs/platform/update/common/update": {
+    "updateNow": "Actualitza ara",
+    "later": "Més tard",
+    "releaseNotes": "Notes de versió"
+  },
+  "vs/code/electron-main/window": {
+    "hiddenMenuBar": "Pots encara accedir a la barra de menús prement la tecla Alt."
+  }
+}
