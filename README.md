@@ -1,4 +1,4 @@
-# Valencià Language Pack for Visual Studio Code
+# Valencià Language Pack per a Visual Studio Code
 
 Paquet d'idioma valencià per a Visual Studio Code.
 
