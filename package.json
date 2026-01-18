@@ -1,0 +1,55 @@
+{
+  "name": "vscode-language-pack-ca-va",
+  "displayName": "Valencià Language Pack for Visual Studio Code",
+  "description": "Paquet d'idioma per a Visual Studio Code en valencià",
+  "version": "1.0.0",
+  "publisher": "tu-nombre-publisher",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Language Packs"
+  ],
+  "keywords": [
+    "valencian",
+    "valencià",
+    "catalan",
+    "language pack",
+    "multilanguage"
+  ],
+  "contributes": {
+    "localizations": [
+      {
+        "languageId": "ca-va",
+        "languageName": "Valencià",
+        "localizedLanguageName": "Valencià",
+        "translations": [
+          {
+            "id": "vscode",
+            "path": "./translations/main.i18n.json"
+          }
+        ]
+      }
+    ]
+  },
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/vscode-valencian-language-pack"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/vscode-valencian-language-pack/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/vscode-valencian-language-pack#readme",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
+  }
+}
