@@ -4,7 +4,7 @@ Paquet d'idioma valencià per a Visual Studio Code.
 
 ## Descripció
 
-Esta extensió traduïx la interfície d'usuari de Visual Studio Code al valencià.
+Aquesta extensió traduïx la interfície d'usuari de Visual Studio Code al valencià.
 
 ## Instal·lació
 
@@ -14,16 +14,16 @@ Esta extensió traduïx la interfície d'usuari de Visual Studio Code al valenci
 ## Ús
 
 1. Instal·la l'extensió
-2. Prem `Ctrl+Shift+P` per obrir la paleta de comandos
+2. Executa `Ctrl+Shift+P` per obrir la paleta de comandos
 3. Escriu "Configure Display Language"
 4. Selecciona "Valencià"
 5. Reinicia VSCode
 
 ## Contribuir amb traduccions
 
-Les traduccions es troben en `translations/main.i18n.json`. Per contribuir:
+Les traduccions es troben en `tranduccions/main.i18n.json`. Per contribuir:
 
-1. Fork este repositori
+1. Fork aquest repositori
 2. Traduïx els textos en el fitxer JSON
 3. Crea una Pull Request
 
@@ -33,7 +33,7 @@ MIT License
 
 ## Autor
 
-[El teu nom]
+JaviMGG
 
 ## Enllaços
 

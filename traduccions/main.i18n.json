@@ -325,7 +325,7 @@
     "continueToHere": "Continuar fins ací"
   },
   "vs/workbench/contrib/debug/browser/debugService": {
-    "snapshotObj": "Només membres primitius són mostrats per a este objecte.",
+    "snapshotObj": "Només membres primitius són mostrats per aquest objecte.",
     "debuggingPaused": "Depuració pausada, raó: {0}",
     "debuggingStarted": "Depuració iniciada.",
     "debuggingStopped": "Depuració aturada."
@@ -364,9 +364,9 @@
   "vs/workbench/contrib/extensions/browser/extensionsActions": {
     "checkForUpdates": "Comprova actualitzacions",
     "disableAll": "Desactiva totes les extensions instal·lades",
-    "disableAllWorkspace": "Desactiva totes les extensions per a este espai de treball",
+    "disableAllWorkspace": "Desactiva totes les extensions per aquest espai de treball",
     "enableAll": "Activa totes les extensions",
-    "enableAllWorkspace": "Activa totes les extensions per a este espai de treball",
+    "enableAllWorkspace": "Activa totes les extensions per aquest espai de treball",
     "installVSIX": "Instal·la des de VSIX...",
     "showRecommendedExtensions": "Mostra extensions recomanades",
     "showEnabledExtensions": "Mostra extensions activades",
@@ -472,7 +472,7 @@
   "vs/workbench/contrib/preferences/browser/settingsEditor2": {
     "searchTOC": "Buscar configuració",
     "noSettingsFound": "No s'han trobat resultats",
-    "noSettingsFoundInCategory": "No s'ha trobat cap configuració en esta categoria",
+    "noSettingsFoundInCategory": "No s'ha trobat cap configuració en aquesta categoria",
     "settingsSwitcherBarAriaLabel": "Barra de selecció de configuració",
     "userSettings": "Configuració d'usuari",
     "workspaceSettings": "Configuració de l'espai de treball",
